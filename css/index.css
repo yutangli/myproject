@@ -1,0 +1,40 @@
+/* 重置样式 */
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style-type: none;
+  text-decoration: none;
+}
+/* 公共样式 */
+.comment{
+  padding: 0px 50px;
+}
+header{
+  width: 100%;
+  height: 80px;
+  /* background-color: blue; */
+}
+
+.hd-img img{
+  /* display: inline-block; */
+  float: left;
+  line-height: 80px;
+  margin-left: 50px;
+}
+.hd-item>ul{
+  margin-right: 50px;
+  line-height: 80px;
+} 
+.hd-item>ul li{
+  display: inline-block;
+  float: right;
+  margin: 0px 40px;
+}
+.art-1{
+  background: url('../static/images/bac.png') left top no-repeat;
+  height: 680px;
+}
+.art-1-head{
+  width: 200px;
+}
